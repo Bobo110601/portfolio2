@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zixiao Liu Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item h3 {
+            margin-bottom: 5px;
+            color: #4CAF50;
+        }
+        .item p {
+            margin: 0;
+            color: #555;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zixiao Liu</h1>
+        <div class="contact-info">
+            <p><strong>University of Illinois at Urbana and Champaign</strong></p>
+            <p>610 E. John St, Champaign, Illinois, U.S.</p>
+            <p>Phone: (447) 902-7774 | Email: zxliu.app@outlook.com</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="item">
+                <h3>University of Illinois at Urbana and Champaign</h3>
+                <p>2024.08 - 2025.05 (Expected)</p>
+                <p>Gies Business School Programme: Business Analytics</p>
+                <p><strong>Relevant Courses:</strong> Enterprise Database Management, Business Practicum, Data Storytelling, Big Data Analytics in Finance for Predictive and Causal Analysis, Business Intelligence</p>
+            </div>
+            <div class="item">
+                <h3>Southern University of Science and Technology</h3>
+                <p>2020.09 - 2024.06</p>
+                <p>Business Analytics</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Internship Experiences</h2>
+            <div class="item">
+                <h3>Tianfeng Securities Co. LTD</h3>
+                <p>2024.07 - 2024.08 | Intern, Corporate Finance Department</p>
+                <p>Engaged in the collection and supplementation of business reimbursement materials across four departments, enhancing financial approval procedures. Supported the bidding process for underwriting services of corporate and municipal bonds. Conducted data verification for due diligence and compiled credit documentation.</p>
+            </div>
+            <div class="item">
+                <h3>HeyTap Digital Technology (OPPO)</h3>
+                <p>2023.06 - 2023.09 | Product Operations Intern, Business Platform</p>
+                <p>Reviewed financial statements, identified discrepancies, and ensured accurate financial entries. Documented meeting minutes and resolved account reconciliation issues.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Project Experiences</h2>
+            <div class="item">
+                <h3>Warehousing Optimization Scheme</h3>
+                <p>2023.04 - 2023.05</p>
+                <p>Researched algorithms related to logistics and storage capacity. Used Python (Numpy) and Gurobi optimization to plan resources and optimize delivery. Developed a storage optimization scheme and wrote an 18-page report.</p>
+            </div>
+            <div class="item">
+                <h3>NBA Game Data Mining Analysis</h3>
+                <p>2022.12</p>
+                <p>Used Python to clean and preprocess 20 years of NBA game data. Applied PCA to extract key features and implemented ELO algorithm to analyze and predict team results.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
